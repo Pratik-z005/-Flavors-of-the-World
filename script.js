@@ -75,6 +75,7 @@ const japanese = document.querySelector("#japanese");
 const russian = document.querySelector("#russian");
 const italian = document.querySelector("#italian");
 const french = document.querySelector("#french");
+const egyptian = document.querySelector("#egyptian");
 
 american.addEventListener("click", () => {
     fetchData("american");
@@ -106,3 +107,7 @@ italian.addEventListener("click", () => {
 french.addEventListener("click", () => {
     fetchData("french");
 });
+egyptian.addEventListener("click", () => {
+  fetchData("egyptian");
+});
+
